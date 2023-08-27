@@ -3,6 +3,7 @@ import ExampleTheme from "./themes/ExampleTheme";
 
 const editorConfig = {
   theme: ExampleTheme,
+  editable: true,
   onError(error) {
     throw error;
   },

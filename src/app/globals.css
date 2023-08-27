@@ -87,6 +87,12 @@ h1 {
   pointer-events: none;
 }
 
+@media (max-width: 1025px) {
+  .editor-placeholder {
+    left: 8px;
+  }
+}
+
 .editor-paragraph {
   margin: 0 0 15px 0;
   position: relative;
